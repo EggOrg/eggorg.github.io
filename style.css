@@ -9,14 +9,4 @@ body {
 .title {
   color: white;
   font-family: "Arial";
-  animation: floatX linear 5s;
-}
-
-@keyframes floatX {
-  0% {
-    transform: translateX(-20px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
 }

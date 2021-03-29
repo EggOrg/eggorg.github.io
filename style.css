@@ -1,5 +1,7 @@
 body {
+  color: white;
   background-color: black;
+  font-family: "Arial";
 }
 
 .ttimg {
@@ -24,8 +26,8 @@ body {
 }
 
 .lnkin {
-  font-family: "Arial";
   color: blue;
+  text-decoration: underline;
   animation: floatx cubic-bezier(0.770, 0.000, 0.175, 1.000) 0.8s;
 }
 

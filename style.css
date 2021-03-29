@@ -4,14 +4,36 @@ body {
 
 .ttimg {
   border-radius: 4px;
+  animation: floatx ease 1s;
 }
 
 .title {
   color: white;
   font-family: "Arial";
+  animation: floatx ease 2s;
 }
 
-.lnk {
+.desc {
+  color: white;
+  font-family: "Arial";
+  animation: floatx ease 3s;
+}
+
+.lnkout {
+  text-decoration: none;
+}
+
+.lnkin {
   font-family: "Arial";
   color: blue;
+  animation: floatx ease 4s;
+}
+
+@keyframes floatx {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }

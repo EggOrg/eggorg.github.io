@@ -27,8 +27,13 @@ body {
 
 .lnkin {
   color: blue;
-  text-decoration: underline;
+  text-decoration: none;
   animation: floatx cubic-bezier(0.770, 0.000, 0.175, 1.000) 0.8s;
+}
+
+.ohyeahand {
+  color: white;
+  animation: floatx cubic-bezier(0.770, 0.000, 0.175, 1.000) 0.9s;
 }
 
 @keyframes floatx {

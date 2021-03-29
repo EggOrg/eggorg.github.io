@@ -23,6 +23,7 @@ body {
 
 .lnkin {
   color: blue;
+  text-decoration: underline;
   animation: floatx cubic-bezier(0.045, 1.125, 0.975, 0.025) 0.8s;
 }
 

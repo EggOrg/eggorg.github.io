@@ -6,22 +6,6 @@ body {
     font-family: "Lato";
 }
   
-.ttimg {
+.timg {
   border-radius: 4px;
-  animation: floatx cubic-bezier(0.770, 0.000, 0.175, 1.000) 0.5s;
-}
-
-.title {
-  animation: floatx cubic-bezier(0.770, 0.000, 0.175, 1.000) 1s;
-}
-
-@keyframes floatx {
-  0% {
-    transform: translateY(200px);
-    opacity: 0%;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 100%;
-  }
 }

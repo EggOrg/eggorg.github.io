@@ -10,19 +10,11 @@ body {
 }
 
 .title {
-  color: white;
-  font-family: "Arial";
   animation: floatx cubic-bezier(0.770, 0.000, 0.175, 1.000) 1s;
 }
 
 .desc {
-  color: white;
-  font-family: "Arial";
   animation: floatx cubic-bezier(0.770, 0.000, 0.175, 1.000) 1.5s;
-}
-
-.lnkout {
-  text-decoration: none;
 }
 
 .lnkin {
@@ -32,7 +24,6 @@ body {
 }
 
 .ohyeahand {
-  color: white;
   animation: floatx cubic-bezier(0.770, 0.000, 0.175, 1.000) 2s;
 }
 

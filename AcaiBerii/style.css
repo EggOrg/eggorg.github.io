@@ -16,18 +16,26 @@ body {
   color: white;
 }
 
-.innerlink {
+.innerlink-hv {
   font-family: "Comic Sans MS", cursive, sans-serif;
   color: blue;
   font-family: "Arial";
-  animation: rotat-e linear 1s infinite;
+  animation: rotat-e linear infinite 1s ;
 }
-
 @keyframes rotat-e {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes hover-e {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }

@@ -28,6 +28,7 @@ a:visited {
 }
 .rContainer:after {
   content: "";
-  clear: both;
-  display: table;
+  display: inline-block;
+  vertical-align: center;
+  align-items: center;
 }

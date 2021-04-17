@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="sketch.svg">
   <img src="https://img.shields.io/badge/EggOrg-the--egg--organization-green?style=for-the-badge">
   <br><br>
   <h3>EggOrg Website</h3>

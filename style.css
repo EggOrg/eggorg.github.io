@@ -8,6 +8,8 @@ body {
 .ttimg {
   border-radius: 4px;
   animation: floatx cubic-bezier(0.770, 0.000, 0.175, 1.000) 0.5s;
+  background-color: dimgray;
+  border-radius: 1%;
 }
 
 .title {
